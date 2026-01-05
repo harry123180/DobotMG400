@@ -68,27 +68,32 @@
 
 ```
 DobotMG400/
-├── README.md                                           # 本文件 / This file
-├── MG400 Model (Creo4.0)-20210406.zip                 # Creo 4.0 3D 模型
-├── MG400 Model (Solidworks2014)-20210406.zip          # SolidWorks 2014 3D 模型
-├── MG400_End_Flange_3D.stp                            # 末端法蘭 3D 模型 (STEP 格式)
-├── TCP_IP Remote Control Interface Guide (4axis)_20240419_en.pdf
-│                                                       # TCP/IP 遠端控制介面指南 (英文)
-└── TCP-IP-Protocol-4AXis-master/
+├── README.md
+├── models/                                    # 3D 模型 / 3D Models
+│   ├── MG400 Model (Creo4.0)-20210406.zip
+│   ├── MG400 Model (Solidworks2014)-20210406.zip
+│   └── MG400_End_Flange_3D.stp
+└── docs/                                      # 技術文件 / Documentation
     ├── TCP_IP Remote Control Interface Guide (4axis)_20240419_en.pdf
-    │                                                   # TCP/IP 遠端控制介面指南 (英文)
     └── TCP_IP远程控制接口文档（4轴）_20240419_cn.pdf
-                                                        # TCP/IP 遠端控制介面指南 (簡體中文)
 ```
+
+### 資料夾說明 Folder Description
+
+| 資料夾 / Folder | 說明 / Description |
+|-----------------|---------------------|
+| `models/` | 3D 模型檔案，包含機械手臂本體與末端法蘭 |
+| `docs/` | TCP/IP 通訊協議技術文件（中/英文） |
 
 ### 檔案說明 File Description
 
 | 檔案 / File | 說明 / Description |
 |-------------|---------------------|
-| `MG400 Model (Creo4.0)-20210406.zip` | MG400 機械手臂 3D 模型，適用於 PTC Creo 4.0 及以上版本 |
-| `MG400 Model (Solidworks2014)-20210406.zip` | MG400 機械手臂 3D 模型，適用於 SolidWorks 2014 及以上版本 |
-| `MG400_End_Flange_3D.stp` | 末端法蘭 STEP 格式 3D 模型，可用於設計末端執行器夾具 |
-| `TCP_IP Remote Control Interface Guide` | TCP/IP 通訊協議文件，包含指令格式與 API 說明 |
+| `MG400 Model (Creo4.0)-20210406.zip` | MG400 機械手臂完整 3D 模型，適用於 PTC Creo 4.0+ |
+| `MG400 Model (Solidworks2014)-20210406.zip` | MG400 機械手臂完整 3D 模型，適用於 SolidWorks 2014+ |
+| `MG400_End_Flange_3D.stp` | 末端法蘭 STEP 格式，用於設計末端執行器/夾具 |
+| `TCP_IP...en.pdf` | TCP/IP 遠端控制介面指南（英文） |
+| `TCP_IP...cn.pdf` | TCP/IP 遠端控制介面指南（簡體中文） |
 
 ---
 
